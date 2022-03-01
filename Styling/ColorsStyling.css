@@ -2,6 +2,8 @@
 h1{
     display: inline;
 }
+
+/* Navigation Bar */
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -24,11 +26,80 @@ nav a:hover{
 }
 .currentPage{
     float: right;
-    background-color: rgb(46, 46, 194);
+    background-color: #2D5DCC;
     font-size: 15px;
     text-decoration: none; 
     padding: 14px 16px;
     border-left: 1px solid #bbb;
     color: white;
     font-family: Arial;
+}
+h2{
+    text-align: center;
+    display: block;
+}
+h3{
+    text-decoration: underline;
+}
+/* Table Design */
+.colorsTable{
+    width: 100%;
+    border: 2px solid black;
+}
+.colorsTable thead{
+    border-bottom: 1px solid #00ff00;
+    text-align: center;
+}
+.colorsTable td{
+    width: 33%;
+}
+.cRow{
+    padding: 25px;
+    margin: 5px;
+}
+.yearTable{
+    width: 100%;
+    border: 1px solid #2D5DCC;
+    height: 100%;
+}
+.yearTable thead{
+    background-color: #5F021F;
+    color: white;
+}
+.yearTable td{
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+    height: 100%;
+}
+#red{
+    background-color: #FF0000;
+}
+#green{
+    background-color: #00ff00;
+}
+#blue{
+    background-color: #0000FF;
+}
+#coolBlue{
+    background-color: #2D5DCC;
+}
+#mintGreen{
+    background-color: #4fe0b0;
+}
+#bordeaux{
+    background-color: #5F021F;
+}
+#classicBlue{
+    background-color: #34568b;
+}
+#livingCoral{
+    background-color: #FF6F61;
+}
+#ultraViolet{
+    background-color: #6B5B95;
+}
+#greenery{
+    background-color: #88B04B;
+    height: 100%;
 }
