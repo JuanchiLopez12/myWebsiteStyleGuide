@@ -34,3 +34,49 @@ nav a:hover{
     color: white;
     font-family: Arial;
 }
+h2{
+    text-align: center;
+    display: block;
+}
+h3{
+    text-decoration: underline;
+    text-align: left;
+    display: inline-block;
+}
+/* Font listing */
+table{
+    width: 100%;
+}
+div{
+    display: inline-block;
+}
+.boldLetters{
+    font-weight: bold;
+}
+.italicLetters{
+    font-style: italic;
+}
+.arial{
+    font-family: Arial;
+}
+.verdana{
+    font-family: Verdana;
+}
+.helvetica{
+    font-family: Helvetica;
+}
+.tahoma{
+    font-family: Tahoma;
+}
+.trebuchetMs{
+    font-family: 'Trebuchet MS';
+}
+.cursive{
+    font-family: cursive;
+}
+.monospace{
+    font-family: monospace;
+}
+.courier{
+    font-family: courier;
+}
