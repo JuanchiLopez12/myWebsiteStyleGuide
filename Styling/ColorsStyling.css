@@ -44,18 +44,18 @@ h3{
 /* Table Design */
 .colorsTable{
     width: 100%;
-    border: 2px solid black;
+    border: 1px solid #2D5DCC;
 }
 .colorsTable thead{
-    border-bottom: 1px solid #00ff00;
+    background-color: #2D5DCC;
+    color: white;
     text-align: center;
 }
 .colorsTable td{
     width: 33%;
 }
 .cRow{
-    padding: 25px;
-    margin: 5px;
+    height: 50px;
 }
 .yearTable{
     width: 100%;
@@ -63,12 +63,12 @@ h3{
     height: 100%;
 }
 .yearTable thead{
-    background-color: #5F021F;
+    background-color: #2D5DCC;
     color: white;
+    text-align: center;
 }
 .yearTable td{
     width: 25%;
-    text-align: center;
     padding: 15px;
     height: 100%;
 }
