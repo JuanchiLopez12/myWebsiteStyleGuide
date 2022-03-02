@@ -2,7 +2,9 @@
 h1{
     display: inline;
 }
-
+body{
+    padding: 0px; 
+}
 /* Navigation Bar */
 nav ul{
     list-style-type: none;
@@ -49,6 +51,7 @@ table{
 }
 div{
     display: inline-block;
+    vertical-align: top;
 }
 .boldLetters{
     font-weight: bold;
